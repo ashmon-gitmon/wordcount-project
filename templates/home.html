@@ -1,0 +1,12 @@
+<i class="fas fa-h1    ">Word Counting</i>
+<br />
+<a href = {% url 'about' %}>About</a>
+
+<form action="{% url 'count' %}">
+    <div class="form-group">
+      <label for=""></label>
+      <textarea class="form-control" name="fulltext" id="" rows="10" cols="40"></textarea>
+      <br />
+      <button type="submit" class="btn btn-primary">Count</button>
+    </div>
+</form>    
